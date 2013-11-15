@@ -1,0 +1,25 @@
+{
+  "name": "loadthis.js",
+  "version": "0.0.0",
+  "description": "General purpose loading utilities for JavaScript",
+  "main": "loadthis.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lettertwo/loadthis.js.git"
+  },
+  "keywords": [
+    "javascript",
+    "load"
+  ],
+  "author": "Eric Eldredge <lettertwo@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-bump": "0.0.11"
+  }
+}

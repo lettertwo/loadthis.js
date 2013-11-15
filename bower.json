@@ -1,0 +1,23 @@
+{
+  "name": "loadthis",
+  "version": "0.0.0",
+  "homepage": "https://github.com/lettertwo/loadthis.js",
+  "description": "General purpose loading utilities for JavaScript",
+  "main": "loadthis.js",
+  "keywords": [
+    "javascript",
+    "load"
+  ],
+  "authors": [
+    "Eric Eldrege <lettertwo@gmail.com>",
+    "Matthew Tretter <m@tthewwithanm.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
