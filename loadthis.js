@@ -19,12 +19,12 @@
     },
     text: function(opts, done, fail) {
       $.ajax({
-        url: src,
+        url: opts.url,
         dataType: 'text',
         success: function(data) {
           return done($(data));
         },
-        error: function(err) {
+        error: function(xhr, status, err) {
           return fail(err);
         }
       });

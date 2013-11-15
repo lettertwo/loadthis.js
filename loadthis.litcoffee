@@ -12,11 +12,11 @@
 
       text: (opts, done, fail) ->
         $.ajax
-            url: src
+            url: opts.url
             dataType: 'text'
             success: (data) ->
                 done $ data
-            error: (err) ->
+            error: (xhr, status, err) ->
                 fail err
         return
 
